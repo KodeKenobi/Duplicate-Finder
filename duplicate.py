@@ -19,11 +19,11 @@ for root, folders, files in file_list:
 
         else:
             os.walk(path)
-            print(f"{path} has been deleted")
+            print(f"{path} is a duplicate")
 
 # IF YOU WANT TO DELETE DUPLICATES, UNCOMMENT THE CODE BELOW AND REPLACE THE ONE ON TOP BECAUSE
 # IT ONLY PRINTS OUT THE DUPLICATES AND DOES NOT DELETE
 #
 #        else:
-#            os.walk(path)
+#            os.remove(path)
 #            print(f"{path} has been deleted")
